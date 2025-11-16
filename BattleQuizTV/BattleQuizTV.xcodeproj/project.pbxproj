@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3F95A5632EC9A0CF00FB03FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F95A54A2EC9A0CE00FB03FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F95A5512EC9A0CE00FB03FA;
+			remoteInfo = BattleQuizTV;
+		};
+		3F95A56D2EC9A0CF00FB03FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F95A54A2EC9A0CE00FB03FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F95A5512EC9A0CE00FB03FA;
+			remoteInfo = BattleQuizTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F95A5522EC9A0CE00FB03FA /* BattleQuizTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleQuizTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F95A5622EC9A0CF00FB03FA /* BattleQuizTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleQuizTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F95A56C2EC9A0CF00FB03FA /* BattleQuizTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleQuizTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3F95A5542EC9A0CE00FB03FA /* BattleQuizTV */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BattleQuizTV;
+			sourceTree = "<group>";
+		};
+		3F95A5652EC9A0CF00FB03FA /* BattleQuizTVTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BattleQuizTVTests;
+			sourceTree = "<group>";
+		};
+		3F95A56F2EC9A0CF00FB03FA /* BattleQuizTVUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BattleQuizTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F95A54F2EC9A0CE00FB03FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F95A55F2EC9A0CF00FB03FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F95A5692EC9A0CF00FB03FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F95A5492EC9A0CE00FB03FA = {
+			isa = PBXGroup;
+			children = (
+				3F95A5542EC9A0CE00FB03FA /* BattleQuizTV */,
+				3F95A5652EC9A0CF00FB03FA /* BattleQuizTVTests */,
+				3F95A56F2EC9A0CF00FB03FA /* BattleQuizTVUITests */,
+				3F95A5532EC9A0CE00FB03FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F95A5532EC9A0CE00FB03FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F95A5522EC9A0CE00FB03FA /* BattleQuizTV.app */,
+				3F95A5622EC9A0CF00FB03FA /* BattleQuizTVTests.xctest */,
+				3F95A56C2EC9A0CF00FB03FA /* BattleQuizTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F95A5512EC9A0CE00FB03FA /* BattleQuizTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F95A5762EC9A0CF00FB03FA /* Build configuration list for PBXNativeTarget "BattleQuizTV" */;
+			buildPhases = (
+				3F95A54E2EC9A0CE00FB03FA /* Sources */,
+				3F95A54F2EC9A0CE00FB03FA /* Frameworks */,
+				3F95A5502EC9A0CE00FB03FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3F95A5542EC9A0CE00FB03FA /* BattleQuizTV */,
+			);
+			name = BattleQuizTV;
+			packageProductDependencies = (
+			);
+			productName = BattleQuizTV;
+			productReference = 3F95A5522EC9A0CE00FB03FA /* BattleQuizTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F95A5612EC9A0CF00FB03FA /* BattleQuizTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F95A5792EC9A0CF00FB03FA /* Build configuration list for PBXNativeTarget "BattleQuizTVTests" */;
+			buildPhases = (
+				3F95A55E2EC9A0CF00FB03FA /* Sources */,
+				3F95A55F2EC9A0CF00FB03FA /* Frameworks */,
+				3F95A5602EC9A0CF00FB03FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F95A5642EC9A0CF00FB03FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3F95A5652EC9A0CF00FB03FA /* BattleQuizTVTests */,
+			);
+			name = BattleQuizTVTests;
+			packageProductDependencies = (
+			);
+			productName = BattleQuizTVTests;
+			productReference = 3F95A5622EC9A0CF00FB03FA /* BattleQuizTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F95A56B2EC9A0CF00FB03FA /* BattleQuizTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F95A57C2EC9A0CF00FB03FA /* Build configuration list for PBXNativeTarget "BattleQuizTVUITests" */;
+			buildPhases = (
+				3F95A5682EC9A0CF00FB03FA /* Sources */,
+				3F95A5692EC9A0CF00FB03FA /* Frameworks */,
+				3F95A56A2EC9A0CF00FB03FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F95A56E2EC9A0CF00FB03FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3F95A56F2EC9A0CF00FB03FA /* BattleQuizTVUITests */,
+			);
+			name = BattleQuizTVUITests;
+			packageProductDependencies = (
+			);
+			productName = BattleQuizTVUITests;
+			productReference = 3F95A56C2EC9A0CF00FB03FA /* BattleQuizTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F95A54A2EC9A0CE00FB03FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3F95A5512EC9A0CE00FB03FA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3F95A5612EC9A0CF00FB03FA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3F95A5512EC9A0CE00FB03FA;
+					};
+					3F95A56B2EC9A0CF00FB03FA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3F95A5512EC9A0CE00FB03FA;
+					};
+				};
+			};
+			buildConfigurationList = 3F95A54D2EC9A0CE00FB03FA /* Build configuration list for PBXProject "BattleQuizTV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F95A5492EC9A0CE00FB03FA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3F95A5532EC9A0CE00FB03FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F95A5512EC9A0CE00FB03FA /* BattleQuizTV */,
+				3F95A5612EC9A0CF00FB03FA /* BattleQuizTVTests */,
+				3F95A56B2EC9A0CF00FB03FA /* BattleQuizTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F95A5502EC9A0CE00FB03FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F95A5602EC9A0CF00FB03FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F95A56A2EC9A0CF00FB03FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F95A54E2EC9A0CE00FB03FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F95A55E2EC9A0CF00FB03FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F95A5682EC9A0CF00FB03FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F95A5642EC9A0CF00FB03FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F95A5512EC9A0CE00FB03FA /* BattleQuizTV */;
+			targetProxy = 3F95A5632EC9A0CF00FB03FA /* PBXContainerItemProxy */;
+		};
+		3F95A56E2EC9A0CF00FB03FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F95A5512EC9A0CE00FB03FA /* BattleQuizTV */;
+			targetProxy = 3F95A56D2EC9A0CF00FB03FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F95A5742EC9A0CF00FB03FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.2;
+			};
+			name = Debug;
+		};
+		3F95A5752EC9A0CF00FB03FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F95A5772EC9A0CF00FB03FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BattleQuizTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT22324092-N.D.C.Minsandi.BattleQuizTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		3F95A5782EC9A0CF00FB03FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BattleQuizTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT22324092-N.D.C.Minsandi.BattleQuizTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		3F95A57A2EC9A0CF00FB03FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT22324092-N.D.C.Minsandi.BattleQuizTVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleQuizTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BattleQuizTV";
+				TVOS_DEPLOYMENT_TARGET = 18.2;
+			};
+			name = Debug;
+		};
+		3F95A57B2EC9A0CF00FB03FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT22324092-N.D.C.Minsandi.BattleQuizTVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleQuizTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BattleQuizTV";
+				TVOS_DEPLOYMENT_TARGET = 18.2;
+			};
+			name = Release;
+		};
+		3F95A57D2EC9A0CF00FB03FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT22324092-N.D.C.Minsandi.BattleQuizTVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = BattleQuizTV;
+			};
+			name = Debug;
+		};
+		3F95A57E2EC9A0CF00FB03FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT22324092-N.D.C.Minsandi.BattleQuizTVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = BattleQuizTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F95A54D2EC9A0CE00FB03FA /* Build configuration list for PBXProject "BattleQuizTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F95A5742EC9A0CF00FB03FA /* Debug */,
+				3F95A5752EC9A0CF00FB03FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F95A5762EC9A0CF00FB03FA /* Build configuration list for PBXNativeTarget "BattleQuizTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F95A5772EC9A0CF00FB03FA /* Debug */,
+				3F95A5782EC9A0CF00FB03FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F95A5792EC9A0CF00FB03FA /* Build configuration list for PBXNativeTarget "BattleQuizTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F95A57A2EC9A0CF00FB03FA /* Debug */,
+				3F95A57B2EC9A0CF00FB03FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F95A57C2EC9A0CF00FB03FA /* Build configuration list for PBXNativeTarget "BattleQuizTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F95A57D2EC9A0CF00FB03FA /* Debug */,
+				3F95A57E2EC9A0CF00FB03FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F95A54A2EC9A0CE00FB03FA /* Project object */;
+}
